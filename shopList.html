@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping List</title>
+
+        <!-- Link Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <!-- External CSS link-->
+        <link rel="stylesheet" href="shopList.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h2 class="heading">Shopping List</h2>
+
+            <div class="header">
+                <div class="input">
+                <input class="inside-input" type="text" onkeyup="up()" id="input" placeholder="Item">
+                <button  onclick="update()" id="addBtn">Add Item</button>
+               </div>
+            </div>
+            <div class="list">
+            <ul onclick="toggled()" class="items" id="itemList"> </ul>
+            </div>
+        </div>
+
+        <script src="shopList.js"></script>
+    </body>
+</html>

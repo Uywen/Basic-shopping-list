@@ -1,0 +1,42 @@
+body{
+    background-color:brown;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color:green;
+}
+
+.input{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.items{ 
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+   
+}
+
+.list{
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+}
+
+ul{
+  list-style-type: none;
+}
